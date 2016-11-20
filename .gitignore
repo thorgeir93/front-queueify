@@ -1,2 +1,5 @@
-./node_modules
+# Third party modules
+node_modules
 
+# vim swap/recovery files
+.*.swp
