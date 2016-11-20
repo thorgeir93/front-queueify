@@ -1,4 +1,6 @@
 import React from 'react';
+import Main from './components/layout/Main';
+//import Input from './components/forms/Input';
 
 class App extends React.Component {
     constructor() {
@@ -16,34 +18,23 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <InputField 
-                    name='Thorgeir'
-                    classname='submit'
-                    txt={this.state.txt} 
-                    update={this.update}/>
-                <InputField 
-                    name='Josua'
-                    classname='search'
-                    txt={this.state.txt} 
-                    update={this.update}/>
+                <h2>hi</h2>
+                <Main></Main>
             </div>
+                //<Main>
+                //    <Input
+                //        name='Thorgeir'
+                //        classname='submit'
+                //        txt={this.state.txt} 
+                //        update={this.update}/>
+                //    <Input
+                //        name='Josua'
+                //        classname='search'
+                //        txt={this.state.txt} 
+                //        update={this.update}/>
+                //</Main>
         );
     }
-}
-
-const InputField = (props) => {
-    const classname = 'input ' + props.classname;
-    return (
-        <div>
-            <h3>{props.name}</h3>
-            <input 
-                className={classname}
-                type='text' 
-                onChange={props.update}/>
-            <div>{props.txt}</div>
-        </div>
-    );
-
 }
 
 // Set a default values to a props
