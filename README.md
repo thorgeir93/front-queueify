@@ -22,7 +22,7 @@ sudo dnf install yarn
 ```
 To start the project do:
 ```
-yarn add babel webpack webpack-dev-server -g
+yarn add babel webpack webpack-dev-server -g # only do this ones
 yarn install
 ```
 ## Access
