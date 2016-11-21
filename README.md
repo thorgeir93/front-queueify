@@ -13,7 +13,7 @@ git pull
 git push
 ```
 
-If you haven't install Yarn, you can find a good instructions [here](https://yarnpkg.com/en/docs/install#linux-tab)
+If you haven't install Yarn, you can find good instructions [here](https://yarnpkg.com/en/docs/install#linux-tab)
 ```
 # For Fedora
 sudo wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
