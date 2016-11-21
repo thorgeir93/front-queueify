@@ -12,3 +12,5 @@ git commit -m "yeah boy!" <files>
 git pull
 git push
 ```
+
+The website should be available on your local network assign to your host ip address and port 3333.
