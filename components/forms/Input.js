@@ -1,10 +1,8 @@
 import React from 'react'
-import Title from '../common/Title'
 
-class Input extends React.component {
+export default class Input extends React.Component {
     
     render() {
-
         var inputStyle = {
             margin: 'auto 0 auto 0',
             maxWidth: 300,
@@ -15,12 +13,12 @@ class Input extends React.component {
 
         return (
             <div>
-                <h3>{props.name}</h3>
+                <h3>{this.props.name}</h3>
                 <input 
                     style={inputStyle}
                     type='text' 
-                    onChange={props.update}/>
-                <div>{props.txt}</div>
+                    onChange={this.props.update}/>
+                <div>{this.props.txt}</div>
             </div>
         );
     }

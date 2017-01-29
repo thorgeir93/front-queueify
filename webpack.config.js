@@ -1,5 +1,9 @@
 module.exports = {
     entry: './main.js',
+    //entry: {
+    //    IndexPage:'./main.js',
+    //    Vendors: ['react']
+    //},
     output: {
         path: './',
         filename: 'index.js'

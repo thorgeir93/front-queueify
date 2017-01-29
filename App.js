@@ -6,8 +6,16 @@ class App extends React.Component {
     constructor() {
         super();
         this.state = {txt: 'This is the state text!'}
+        
+        this.h2Style = {
+            fontSize:'3em',
+            color: 'white',
+            textAlign: 'center',
+            textTransform: 'uppercase'
+        }
 
-        // this statement must be included in the constructor
+        // this statement must be included 
+        // in the constructor
         this.update = this.update.bind(this)
     }
 
@@ -18,7 +26,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h2>hi</h2>
+                <h2 style={this.h2Style}>Quebeck</h2>
                 <Main></Main>
             </div>
                 //<Main>
